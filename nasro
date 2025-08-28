@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      justify-items: center;
+      align-items: center;
+    }
+
+    .gallery img {
+      width: 150px;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+    }
+
+    @media (max-width: 480px) {
+      .gallery img {
+        width: 80%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>my page</h1>
+
+  <div class="gallery">
+    <img src="https://picsum.photos/150/220?random=1" alt="Book 1">
+    <img src="https://picsum.photos/150/220?random=2" alt="Book 2">
+    <img src="https://picsum.photos/150/220?random=4" alt="Book 4">
+    <img src="https://picsum.photos/150/220?random=5" alt="Book 5">
+    <img src="https://picsum.photos/150/220?random=6" alt="Book 6">
+    <img src="https://picsum.photos/150/220?random=7" alt="Book 7">
+  
+    <img src="https://picsum.photos/150/220?random=9" alt="Book 9">
+    <img src="https://picsum.photos/150/220?random=10" alt="Book 10">
+    <img src="https://picsum.photos/150/220?random=11" alt="Book 11">
+    <img src="https://picsum.photos/150/220?random=12" alt="Book 12"><div class="card" data-category="men">
+      <img src="https://images.pexels.com/photos/794064/pexels-photo-794064.jpeg" alt="Street Fashion">
+      <h3>Street Fashion</h3>
+      <p>$52</p>
+      </div>
+      
+      <div class="card" data-category="men">
+      <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg" alt="Stylish Jacket">
+      <h3>Stylish Jacket</h3>
+      <p>$58</p>
+      </div>
+      
+      <div class="card" data-category="men">
+      <img src="https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg" alt="Classic Shirt">
+      <h3>Classic Shirt</h3>
+      <p>$55</p>
+      </div>
+      
+      <div class="card" data-category="men">
+      <img src="https://images.pexels.com/photos/3748221/pexels-photo-3748221.jpeg" alt="Denim Jacket">
+      <h3>Denim Jacket</h3>
+      <p>$60</p>
+      </div>
+      
+      <div class="card" data-category="men">
+      <img src="https://images.pexels.com/photos/220414/pexels-photo-220414.jpeg" alt="Smart Casual">
+      <h3>Smart Casual</h3>
+      <p>$52</p>
+      </div>
+      
+      <!-- Accessories -->
+      <div class="card" data-category="accessories">
+      <img src="https://images.pexels.com/photos/3769741/pexels-photo-3769741.jpeg" alt="Watch">
+      <h3>Watch</h3>
+      <p>$90</p>
+      </div>
+      
+      <div class="card" data-category="accessories">
+      <img src="https://images.pexels.com/photos/3771052/pexels-photo-3771052.jpeg" alt="Stylish Scarf">
+      <h3>Stylish Scarf</h3>
+      <p>$30</p>
+      </div>
+      
+      <div class="card" data-category="accessories">
+      <img src="https://images.pexels.com/photos/2983466/pexels-photo-2983466.jpeg" alt="Leather Gloves">
+      <h3>Leather Gloves</h3>
+      <p>$40</p>
+      </div>
+      
+      <div class="card" data-category="accessories">
+      <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="Handbag">
+      <h3>Handbag</h3>
+      <p>$70</p>
+      </div>
+      
+      <div class="card" data-category="accessories">
+      <img src="https://images.pexels.com/photos/842811/pexels-photo-842811.jpeg" alt="Stylish Necklace">
+      <h3>Stylish Necklace</h3>
+      <p>$35</p>
+      </div>
+      
+      <div class="card" data-category="accessories">
+      <img src="https://images.pexels.com/photos/207983/pexels-photo-207983.jpeg" alt="Elegant Watch">
+      <h3>Elegant Watch</h3>
+      <p>$95</p>
+  </div>
+
+</body>
+</html>
